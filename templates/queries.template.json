@@ -1,0 +1,6 @@
+[
+  {"id": "Q1", "type": "entity", "name": "<entity name, alias, or abbreviation>"},
+  {"id": "Q2", "type": "compare", "entity_a": "<entity in paper A>", "entity_b": "<entity in paper B>"},
+  {"id": "Q3", "type": "evidence", "edge_id": "<R_xxxxxxxxxx from graph.json>"},
+  {"id": "Q4", "type": "search", "text": "<free text>"}
+]

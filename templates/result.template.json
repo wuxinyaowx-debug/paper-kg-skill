@@ -1,0 +1,34 @@
+{
+  "case_id": "<copy from case.json>",
+  "status": "success | partial | cannot_determine | refused",
+  "status_reason": "<why, if not success>",
+  "main_result": {
+    "graph": {
+      "path": "/app/output/graph.json",
+      "readable": "/app/output/graph.md",
+      "nodes": 0,
+      "edges": 0,
+      "papers": ["primary", "secondary"]
+    },
+    "queries": {
+      "path": "/app/output/query_results.json",
+      "executed": 0,
+      "answered": 0,
+      "no_result": 0
+    },
+    "change_log": "/app/output/changes.md"
+  },
+  "evidence_and_boundaries": {
+    "location_scheme": "source_id + JATS paragraph_id + verbatim quote (no PDF page numbers available in this package)",
+    "merges": [{"canonical": "", "merged": [""], "justification": "", "confidence": ""}],
+    "conflicts_kept": [{"items": [""], "description": "", "resolution": "kept_separate"}],
+    "not_reported": ["<facts the task asked about but the materials do not report>"],
+    "uncertainties": ["<quote mismatches with match_note, inferred relations, ambiguous names>"]
+  },
+  "run": {
+    "validation_report": "/app/work/validation_report.json",
+    "validation_errors": 0,
+    "validation_warnings": 0,
+    "notes": "<what was actually executed; anything skipped and why>"
+  }
+}

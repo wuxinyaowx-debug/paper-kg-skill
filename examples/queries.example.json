@@ -1,0 +1,6 @@
+[
+  {"id": "Q1", "type": "entity", "name": "TiO2", "note": "single-entity lookup: expect the merged cross-paper TiO2 node with per-source evidence"},
+  {"id": "Q2", "type": "compare", "entity_a": "SnO2", "entity_b": "TiO2", "note": "cross-paper comparison: which relations connect the two ETL materials"},
+  {"id": "Q3", "type": "evidence", "edge_id": "R_3a8d5c52a6", "note": "evidence trace-back of the outperforms edge (id from output/graph.json)"},
+  {"id": "Q4", "type": "search", "text": "spin-coating", "note": "free-text search over node names and aliases"}
+]

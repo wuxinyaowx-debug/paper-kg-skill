@@ -1,0 +1,9 @@
+{
+  "source_id": "secondary",
+  "note": "SYNTHETIC EXAMPLE - fictional demo paper B, written for interface demonstration only",
+  "paragraphs": [
+    {"paragraph_id": "s1", "text": "We compare titanium dioxide (TiO2) and SnO2 electron transport layers in perovskite solar cells subjected to damp-heat ageing at 85 C and 85% relative humidity."},
+    {"paragraph_id": "s2", "text": "After 500 hours, the SnO2 devices retain 92% of their initial PCE, whereas the TiO2 devices retain only 74%."},
+    {"paragraph_id": "s3", "text": "All devices in this study were prepared by spin-coating, consistent with common practice in the field."}
+  ]
+}

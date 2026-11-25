@@ -1,0 +1,561 @@
+{
+  "papers": [
+    {
+      "source_id": "primary",
+      "doi": "10.0000/synthetic.demo.a",
+      "title": "Synthetic Demo Paper A: Mesoporous TiO2 Electron Transport Layers",
+      "authors": [
+        "Demo Author One",
+        "Demo Author Two"
+      ],
+      "file": "primary-material.json"
+    },
+    {
+      "source_id": "secondary",
+      "doi": "10.0000/synthetic.demo.b",
+      "title": "Synthetic Demo Paper B: SnO2 versus TiO2 ETLs under Damp-Heat",
+      "authors": [
+        "Demo Author Three"
+      ],
+      "file": "secondary-material.json"
+    }
+  ],
+  "nodes": [
+    {
+      "node_id": "N_0056131e04",
+      "name": "mesoporous TiO2",
+      "normalized": "mesoporous tio2",
+      "type": "material",
+      "aliases": [
+        "TiO2",
+        "titanium dioxide (TiO2)",
+        "titanium dioxide"
+      ],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p1",
+              "quote": "a mesoporous TiO2 electron transport layer deposited by spin-coating"
+            }
+          ]
+        },
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s1",
+              "quote": "We compare titanium dioxide (TiO2) and SnO2 electron transport layers"
+            }
+          ]
+        }
+      ],
+      "merged_from": [
+        "e_tio2_secondary"
+      ],
+      "notes": ""
+    },
+    {
+      "node_id": "N_03b8c9892b",
+      "name": "perovskite solar cells",
+      "normalized": "perovskite solar cells",
+      "type": "task",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p1",
+              "quote": "we fabricate perovskite solar cells using a mesoporous TiO2 electron transport layer"
+            }
+          ]
+        },
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s1",
+              "quote": "in perovskite solar cells subjected to damp-heat ageing"
+            }
+          ]
+        }
+      ],
+      "merged_from": [
+        "e_psc_secondary"
+      ],
+      "notes": ""
+    },
+    {
+      "node_id": "N_2bc78419ad",
+      "name": "AM 1.5G illumination at 100 mW cm-2",
+      "normalized": "am 1.5g illumination at 100 mw cm-2",
+      "type": "condition",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p2",
+              "quote": "under AM 1.5G illumination at 100 mW cm-2"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "node_id": "N_52204a1c2a",
+      "name": "SnO2",
+      "normalized": "sno2",
+      "type": "material",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s1",
+              "quote": "titanium dioxide (TiO2) and SnO2 electron transport layers"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "node_id": "N_58c12ca383",
+      "name": "spin-coating",
+      "normalized": "spin-coating",
+      "type": "method",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p1",
+              "quote": "deposited by spin-coating"
+            }
+          ]
+        },
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s3",
+              "quote": "All devices in this study were prepared by spin-coating"
+            }
+          ]
+        }
+      ],
+      "merged_from": [
+        "e_spincoating_secondary"
+      ],
+      "notes": ""
+    },
+    {
+      "node_id": "N_68568c6fe6",
+      "name": "power conversion efficiency (PCE)",
+      "normalized": "power conversion efficiency (pce)",
+      "type": "metric",
+      "aliases": [
+        "PCE"
+      ],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p2",
+              "quote": "a power conversion efficiency (PCE) of 21.1%"
+            }
+          ]
+        },
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s2",
+              "quote": "their initial PCE"
+            }
+          ]
+        }
+      ],
+      "merged_from": [
+        "e_pce_secondary"
+      ],
+      "notes": ""
+    },
+    {
+      "node_id": "N_704ede7e33",
+      "name": "PCE of 21.1% (champion device, paper A)",
+      "normalized": "pce of 21.1% (champion device, paper a)",
+      "type": "value",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p2",
+              "quote": "The champion device reaches a power conversion efficiency (PCE) of 21.1% under AM 1.5G illumination at 100 mW cm-2"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "node_id": "N_88b2753f0c",
+      "name": "Chen et al.",
+      "normalized": "chen et al.",
+      "type": "researcher",
+      "aliases": [],
+      "attribution": "reported_other",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p3",
+              "quote": "Chen et al. previously reported that TiO2-based devices degrade under ultraviolet illumination"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": "cited work, not the authors of paper A; no affiliation given in text, so no merge with any other 'Chen' is allowed"
+    },
+    {
+      "node_id": "N_90dc13f5c1",
+      "name": "damp-heat ageing at 85 C and 85% relative humidity",
+      "normalized": "damp-heat ageing at 85 c and 85% relative humidity",
+      "type": "condition",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s1",
+              "quote": "damp-heat ageing at 85 C and 85% relative humidity"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": "degree sign lost in linearised text ('85 C'); check publisher XML before quoting in a manuscript"
+    },
+    {
+      "node_id": "N_b6e43000d1",
+      "name": "PCE retention after 500 h: SnO2 92%, TiO2 74% (paper B)",
+      "normalized": "pce retention after 500 h: sno2 92%, tio2 74% (paper b)",
+      "type": "value",
+      "aliases": [],
+      "attribution": "author",
+      "sources": [
+        {
+          "source_id": "secondary",
+          "evidence": [
+            {
+              "source_id": "secondary",
+              "paragraph_id": "s2",
+              "quote": "the SnO2 devices retain 92% of their initial PCE, whereas the TiO2 devices retain only 74%"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": ""
+    },
+    {
+      "node_id": "N_f72da9bb16",
+      "name": "TiO2-based devices degrade under ultraviolet illumination",
+      "normalized": "tio2-based devices degrade under ultraviolet illumination",
+      "type": "conclusion",
+      "aliases": [],
+      "attribution": "reported_other",
+      "sources": [
+        {
+          "source_id": "primary",
+          "evidence": [
+            {
+              "source_id": "primary",
+              "paragraph_id": "p3",
+              "quote": "TiO2-based devices degrade under ultraviolet illumination"
+            }
+          ]
+        }
+      ],
+      "merged_from": [],
+      "notes": "claim attributed to Chen et al. by paper A, not verified by paper A itself"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "R_c6bf6350e2",
+      "subject": "N_03b8c9892b",
+      "subject_name": "perovskite solar cells",
+      "predicate": "uses",
+      "object": "N_0056131e04",
+      "object_name": "mesoporous TiO2",
+      "conditions": "as electron transport layer",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "primary",
+          "paragraph_id": "p1",
+          "quote": "perovskite solar cells using a mesoporous TiO2 electron transport layer"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_4e77590cf5",
+      "subject": "N_0056131e04",
+      "subject_name": "mesoporous TiO2",
+      "predicate": "uses",
+      "object": "N_58c12ca383",
+      "object_name": "spin-coating",
+      "conditions": "deposition of the mesoporous TiO2 layer",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "primary",
+          "paragraph_id": "p1",
+          "quote": "a mesoporous TiO2 electron transport layer deposited by spin-coating"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_b303a1e6bd",
+      "subject": "N_03b8c9892b",
+      "subject_name": "perovskite solar cells",
+      "predicate": "reports_value",
+      "object": "N_704ede7e33",
+      "object_name": "PCE of 21.1% (champion device, paper A)",
+      "conditions": "AM 1.5G illumination at 100 mW cm-2",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "primary",
+          "paragraph_id": "p2",
+          "quote": "The champion device reaches a power conversion efficiency (PCE) of 21.1% under AM 1.5G illumination"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_e701e6f4ed",
+      "subject": "N_68568c6fe6",
+      "subject_name": "power conversion efficiency (PCE)",
+      "predicate": "measures",
+      "object": "N_03b8c9892b",
+      "object_name": "perovskite solar cells",
+      "conditions": "champion device",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "primary",
+          "paragraph_id": "p2",
+          "quote": "a power conversion efficiency (PCE) of 21.1%"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_9bfa73cc6e",
+      "subject": "N_88b2753f0c",
+      "subject_name": "Chen et al.",
+      "predicate": "supports",
+      "object": "N_f72da9bb16",
+      "object_name": "TiO2-based devices degrade under ultraviolet illumination",
+      "conditions": "as cited by paper A; original study not included in this corpus",
+      "evidence_strength": "reported",
+      "attribution": "reported_other",
+      "evidence": [
+        {
+          "source_id": "primary",
+          "paragraph_id": "p3",
+          "quote": "Chen et al. previously reported that TiO2-based devices degrade under ultraviolet illumination"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_b29d098490",
+      "subject": "N_03b8c9892b",
+      "subject_name": "perovskite solar cells",
+      "predicate": "uses",
+      "object": "N_0056131e04",
+      "object_name": "mesoporous TiO2",
+      "conditions": "as electron transport layer, one arm of the comparison",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s1",
+          "quote": "We compare titanium dioxide (TiO2) and SnO2 electron transport layers in perovskite solar cells"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_af89e5f115",
+      "subject": "N_03b8c9892b",
+      "subject_name": "perovskite solar cells",
+      "predicate": "uses",
+      "object": "N_52204a1c2a",
+      "object_name": "SnO2",
+      "conditions": "as electron transport layer, one arm of the comparison",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s1",
+          "quote": "We compare titanium dioxide (TiO2) and SnO2 electron transport layers in perovskite solar cells"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_516f8d4912",
+      "subject": "N_0056131e04",
+      "subject_name": "mesoporous TiO2",
+      "predicate": "compares_with",
+      "object": "N_52204a1c2a",
+      "object_name": "SnO2",
+      "conditions": "damp-heat ageing at 85 C and 85% relative humidity, 500 hours",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s1",
+          "quote": "subjected to damp-heat ageing at 85 C and 85% relative humidity"
+        },
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s2",
+          "quote": "After 500 hours"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_3a8d5c52a6",
+      "subject": "N_52204a1c2a",
+      "subject_name": "SnO2",
+      "predicate": "outperforms",
+      "object": "N_0056131e04",
+      "object_name": "mesoporous TiO2",
+      "conditions": "PCE retention after 500 h damp-heat at 85 C / 85% RH (paper B devices only)",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s2",
+          "quote": "the SnO2 devices retain 92% of their initial PCE, whereas the TiO2 devices retain only 74%"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_12337e5f7c",
+      "subject": "N_03b8c9892b",
+      "subject_name": "perovskite solar cells",
+      "predicate": "uses",
+      "object": "N_58c12ca383",
+      "object_name": "spin-coating",
+      "conditions": "all devices in paper B",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s3",
+          "quote": "All devices in this study were prepared by spin-coating"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "edge_id": "R_e4499dbe2f",
+      "subject": "N_68568c6fe6",
+      "subject_name": "power conversion efficiency (PCE)",
+      "predicate": "measures",
+      "object": "N_03b8c9892b",
+      "object_name": "perovskite solar cells",
+      "conditions": "retention of initial PCE after ageing",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {
+          "source_id": "secondary",
+          "paragraph_id": "s2",
+          "quote": "retain 92% of their initial PCE"
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "conflicts": [
+    {
+      "items": [
+        "e_pce_value_primary",
+        "e_retention_value_secondary"
+      ],
+      "description": "Both are performance numbers involving PCE, but they come from different papers, different devices and different conditions (AM 1.5G initial efficiency vs damp-heat retention). They must NOT be merged into one conclusion.",
+      "resolution": "kept_separate"
+    },
+    {
+      "items": [
+        "e_uv_degradation",
+        "e_retention_value_secondary"
+      ],
+      "description": "Paper A (citing Chen et al.) reports UV-driven degradation of TiO2 devices; paper B reports damp-heat-driven degradation. Different stressors; neither confirms nor contradicts the other.",
+      "resolution": "kept_separate"
+    }
+  ],
+  "uncertainties": [
+    "Paper A reports no stability data; paper B's retention results must not be extrapolated to paper A's devices.",
+    "The degree sign in '85 C' (s1) was lost during text linearisation; verify against the publisher XML before reuse.",
+    "Chen et al. (p3) cannot be merged with any researcher outside this corpus: no affiliation or given name is reported."
+  ],
+  "id_scheme": "hash-based stable ids (N_/R_ + sha1[:10]); incremental updates keep existing ids"
+}

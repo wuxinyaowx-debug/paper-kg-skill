@@ -1,0 +1,9 @@
+{
+  "source_id": "primary",
+  "note": "SYNTHETIC EXAMPLE - fictional demo paper A, written for interface demonstration only",
+  "paragraphs": [
+    {"paragraph_id": "p1", "text": "In this work we fabricate perovskite solar cells using a mesoporous TiO2 electron transport layer deposited by spin-coating."},
+    {"paragraph_id": "p2", "text": "The champion device reaches a power conversion efficiency (PCE) of 21.1% under AM 1.5G illumination at 100 mW cm-2."},
+    {"paragraph_id": "p3", "text": "Chen et al. previously reported that TiO2-based devices degrade under ultraviolet illumination, which motivated our UV-filtering encapsulation."}
+  ]
+}

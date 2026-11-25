@@ -1,0 +1,21 @@
+{
+  "corpus": "synthetic-demo-v1 (SYNTHETIC EXAMPLE, not a real paper)",
+  "papers": [
+    {
+      "source_id": "primary",
+      "doi": "10.0000/synthetic.demo.a",
+      "title": "Synthetic Demo Paper A: Mesoporous TiO2 Electron Transport Layers",
+      "authors": ["Demo Author One", "Demo Author Two"],
+      "license": "CC-BY-4.0 (fictional, for interface demonstration)",
+      "sha256": "demo-not-a-real-hash-a"
+    },
+    {
+      "source_id": "secondary",
+      "doi": "10.0000/synthetic.demo.b",
+      "title": "Synthetic Demo Paper B: SnO2 versus TiO2 ETLs under Damp-Heat",
+      "authors": ["Demo Author Three"],
+      "license": "CC-BY-4.0 (fictional, for interface demonstration)",
+      "sha256": "demo-not-a-real-hash-b"
+    }
+  ]
+}

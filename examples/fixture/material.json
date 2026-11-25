@@ -1,0 +1,15 @@
+{
+  "description": "SYNTHETIC EXAMPLE - aggregate index of both demo papers (not a real corpus)",
+  "papers": [
+    {
+      "source_id": "primary",
+      "full_text_file": "primary-material.json",
+      "paragraph_ids": ["p1", "p2", "p3"]
+    },
+    {
+      "source_id": "secondary",
+      "full_text_file": "secondary-material.json",
+      "paragraph_ids": ["s1", "s2", "s3"]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "papers": [
+    {
+      "source_id": "primary",
+      "doi": "<DOI from corpus-manifest.json, this paper only>",
+      "title": "<title of THIS paper>",
+      "authors": ["<authors of THIS paper>"],
+      "file": "primary-material.json"
+    },
+    {
+      "source_id": "secondary",
+      "doi": "<DOI of the second paper, do NOT copy the root DOI>",
+      "title": "<title of the second paper>",
+      "authors": ["<authors of the second paper>"],
+      "file": "secondary-material.json"
+    }
+  ],
+  "entities": [
+    {
+      "id": "e_example_material_primary",
+      "name": "<surface form as printed in the paper>",
+      "normalized": "<lowercased canonical name, optional>",
+      "type": "material",
+      "aliases": ["<abbreviation or variant spelling used in the same paper>"],
+      "source_id": "primary",
+      "attribution": "author",
+      "evidence": [
+        {"paragraph_id": "<JATS paragraph id>", "quote": "<short verbatim quote>"}
+      ],
+      "notes": ""
+    }
+  ],
+  "relations": [
+    {
+      "id": "r_example",
+      "subject": "e_example_material_primary",
+      "predicate": "uses",
+      "object": "e_example_method_primary",
+      "conditions": "<conditions under which the relation holds, verbatim>",
+      "evidence_strength": "direct",
+      "attribution": "author",
+      "evidence": [
+        {"source_id": "primary", "paragraph_id": "<JATS paragraph id>", "quote": "<short verbatim quote>"}
+      ],
+      "notes": ""
+    }
+  ],
+  "merge_decisions": [
+    {
+      "canonical": "e_example_material_primary",
+      "merged": ["e_example_material_secondary"],
+      "justification": "<why these are the same concept; cite both papers' evidence>",
+      "confidence": "high"
+    }
+  ],
+  "conflicts": [
+    {
+      "items": ["e_x_primary", "e_x_secondary"],
+      "description": "<same name, why they must NOT be merged>",
+      "resolution": "kept_separate"
+    }
+  ],
+  "uncertainties": [
+    "<material gaps, unverifiable items, inferred-relation justification>"
+  ]
+}

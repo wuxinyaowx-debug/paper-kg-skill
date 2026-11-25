@@ -1,0 +1,72 @@
+{
+  "input_dir": "D:\\文档\\01_研一\\科技写作\\玻尔\\005\\submission\\examples\\fixture",
+  "files_scanned": [
+    "corpus-manifest.json",
+    "material.json",
+    "primary-material.json",
+    "secondary-material.json"
+  ],
+  "papers": [
+    {
+      "source_id": "primary",
+      "doi": "10.0000/synthetic.demo.a",
+      "title": "Synthetic Demo Paper A: Mesoporous TiO2 Electron Transport Layers",
+      "authors": [
+        "Demo Author One",
+        "Demo Author Two"
+      ],
+      "license": "CC-BY-4.0 (fictional, for interface demonstration)",
+      "sha256": "demo-not-a-real-hash-a",
+      "manifest_file": "corpus-manifest.json"
+    },
+    {
+      "source_id": "secondary",
+      "doi": "10.0000/synthetic.demo.b",
+      "title": "Synthetic Demo Paper B: SnO2 versus TiO2 ETLs under Damp-Heat",
+      "authors": [
+        "Demo Author Three"
+      ],
+      "license": "CC-BY-4.0 (fictional, for interface demonstration)",
+      "sha256": "demo-not-a-real-hash-b",
+      "manifest_file": "corpus-manifest.json"
+    }
+  ],
+  "paragraphs": [
+    {
+      "source_id": "primary",
+      "paragraph_id": "p1",
+      "text": "In this work we fabricate perovskite solar cells using a mesoporous TiO2 electron transport layer deposited by spin-coating.",
+      "file": "primary-material.json"
+    },
+    {
+      "source_id": "primary",
+      "paragraph_id": "p2",
+      "text": "The champion device reaches a power conversion efficiency (PCE) of 21.1% under AM 1.5G illumination at 100 mW cm-2.",
+      "file": "primary-material.json"
+    },
+    {
+      "source_id": "primary",
+      "paragraph_id": "p3",
+      "text": "Chen et al. previously reported that TiO2-based devices degrade under ultraviolet illumination, which motivated our UV-filtering encapsulation.",
+      "file": "primary-material.json"
+    },
+    {
+      "source_id": "secondary",
+      "paragraph_id": "s1",
+      "text": "We compare titanium dioxide (TiO2) and SnO2 electron transport layers in perovskite solar cells subjected to damp-heat ageing at 85 C and 85% relative humidity.",
+      "file": "secondary-material.json"
+    },
+    {
+      "source_id": "secondary",
+      "paragraph_id": "s2",
+      "text": "After 500 hours, the SnO2 devices retain 92% of their initial PCE, whereas the TiO2 devices retain only 74%.",
+      "file": "secondary-material.json"
+    },
+    {
+      "source_id": "secondary",
+      "paragraph_id": "s3",
+      "text": "All devices in this study were prepared by spin-coating, consistent with common practice in the field.",
+      "file": "secondary-material.json"
+    }
+  ]
+}
